@@ -1,0 +1,88 @@
+//===========================================
+//  ___________
+// | ELL'S HUD |
+//  ¯¯¯¯¯¯¯¯¯¯¯
+event hudHealthBonusPulse
+{
+  animate healthValue fGColor EllGreen linear 0.0 0.0
+  runEvent hudHealthBonusPulseLoop 0.1
+}
+
+event hudHealthBonusPulseLoop
+{
+  runEvent hudHealthBonusPulse 0.0
+}
+
+event hudHealthBonusPulseStop
+{
+  stopEvent HudHealthBonusPulse 0.0
+  stopEvent HudHealthBonusPulseLoop 0.0
+  animate healthValue fGColor EllWhite linear 0.0 0.0
+}
+
+event hudHealthDyingPulse
+{
+  animate healthValue fGColor EllPink linear 0.0 0.0
+  runEvent hudHealthDyingPulseLoop 0.1
+}
+
+event hudHealthDyingPulseLoop
+{
+  runEvent hudHealthDyingPulse 0.0
+}
+
+event hudHealthDyingPulseStop
+{
+  stopEvent hudHealthDyingPulse 0.0
+  stopEvent hudHealthDyingPulseLoop 0.0
+  animate healthValue fGColor EllWhite linear 0.0 0.0
+}
+
+event hudLowAmmoPulse
+{
+  runEvent hudLowAmmoPulseLoop  0.1
+}
+
+event hudLowAmmoPulseLoop
+{
+  runEvent hudLowAmmoPulse 0.0
+}
+
+event hudLowAmmoPulseStop
+{
+  stopEvent hudLowAmmoPulse 0.0
+  stopEvent hudLowAmmoPulseLoop 0.0
+}
+//  _______________
+// | END ELL'S HUD |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//===========================================
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFadeOut
+{
+}
+
+//===========================================
+
+event HudMedicCharged
+{ 
+  animate chargeLabel fGColor EllPink linear 0.0 0.0
+  runEvent hudMedicChargedLoop 0.1
+}
+event hudMedicChargedLoop
+{
+  runEvent hudMedicCharged 0.0
+}
+
+event hudMedicChargedStop
+{
+  stopEvent hudMedicCharged 0.0
+  stopEvent hudMedicChargedLoop 0.0
+  animate chargeLabel fGColor EllWhite linear 0.0 0.0
+}
+
+//===========================================
