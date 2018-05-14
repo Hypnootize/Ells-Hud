@@ -5,7 +5,7 @@
 //  ¯¯¯¯¯¯¯¯¯¯¯
   "ServerTimeLimitLabel"
   {
-  "ControlName"   "CExLabel"
+	"ControlName"   "CExLabel"
     "fieldName"     "ServerTimeLimitLabel"
     "xpos"          "0"
     "ypos"          "0"
@@ -21,6 +21,12 @@
     "wrap"          "0"
     "font"          "EllText2Outlined"
     "fgcolor"       "EllWhite"
+	
+	if_match
+	{
+		"ypos"		"21"
+		"font"      "EllText1Outlined"
+	}
   }
 //  _______________
 // | END ELL'S HUD |
@@ -45,8 +51,7 @@
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }
   "TimePanelProgressBar"
@@ -72,8 +77,7 @@
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }
   "WaitingForPlayersLabel"
@@ -84,11 +88,7 @@
     "ypos"          "480"
     "zpos"          "-1"
     "wide"          "78"
-    "wide_hidef"    "300"
-    "wide_lodef"    "300"
     "tall"          "19"
-    "tall_hidef"    "19"
-    "tall_lodef"    "22"
     "visible"       "0"
     "enabled"       "0"
     "labelText"     "#game_WaitingForPlayers"
@@ -97,13 +97,10 @@
     "brighttext"    "0"
     "wrap"          "0"
     "font"          "ClockSubTextTiny"
-    "font_hidef"    "HudFontSmall"
-    "font_lodef"    "HudFontSmall"
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }     
   "WaitingForPlayersBG"
@@ -115,7 +112,6 @@
     "zpos"         "-1"
     "wide"         "78"
     "tall"         "20"
-    "tall_minmode" "0"
     "visible"      "0"
     "enabled"      "0"
     "image"        "../hud/objectives_timepanel_suddendeath" 
@@ -123,8 +119,7 @@
 
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}	
   }
   "OvertimeLabel"
@@ -135,11 +130,7 @@
     "ypos"          "480"
     "zpos"          "-1"
     "wide"          "78"
-    "wide_hidef"    "300"
-    "wide_lodef"    "300"
     "tall"          "19"
-    "tall_hidef"    "19"
-    "tall_lodef"    "22"
     "visible"       "0"
     "enabled"       "0"
     "labelText"     "#game_Overtime"
@@ -148,13 +139,10 @@
     "brighttext"    "0"
     "wrap"          "0"
     "font"          "ClockSubText"
-    "font_hidef"    "HudFontSmall"
-    "font_lodef"    "HudFontSmall"
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }     
   "OvertimeBG"
@@ -166,7 +154,6 @@
     "zpos"         "-1"
     "wide"         "78"
     "tall"         "20"
-    "tall_minmode" "0"
     "visible"      "0"
     "enabled"      "0"
     "image"        "../hud/objectives_timepanel_suddendeath" 
@@ -174,8 +161,7 @@
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }
   "SuddenDeathLabel"
@@ -186,11 +172,7 @@
     "ypos"          "480"
     "zpos"          "-1"
     "wide"          "78"
-    "wide_hidef"    "300"
-    "wide_lodef"    "300"
     "tall"          "19"
-    "tall_hidef"    "19"
-    "tall_lodef"    "22"
     "visible"       "0"
     "enabled"       "0"
     "labelText"     "#game_SuddenDeath"
@@ -199,13 +181,10 @@
     "brighttext"    "0"
     "wrap"          "0"
     "font"          "ClockSubTextSuddenDeath"
-    "font_hidef"    "HudFontSmall"
-    "font_lodef"    "HudFontSmall"
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }     
   "SuddenDeathBG"
@@ -217,7 +196,6 @@
     "zpos"         "-1"
     "wide"         "78"
     "tall"         "20"
-    "tall_minmode" "0"
     "visible"      "0"
     "enabled"      "0"
     "image"        "../hud/objectives_timepanel_suddendeath" 
@@ -225,8 +203,7 @@
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   } 
   "SetupLabel"
@@ -237,11 +214,7 @@
     "ypos"          "480"
     "zpos"          "-1"
     "wide"          "78"
-    "wide_hidef"    "300"
-    "wide_lodef"    "300"
     "tall"          "19"
-    "tall_hidef"    "19"
-    "tall_lodef"    "22"
     "visible"       "0"
     "enabled"       "0"
     "labelText"     "#game_Setup"
@@ -250,14 +223,10 @@
     "brighttext"    "0"
     "wrap"          "0"
     "font"          "ClockSubText"
-    "font_minmode"  "ClockSubTextSuddenDeath"
-    "font_hidef"    "HudFontSmall"
-    "font_lodef"    "HudFontSmall"
 	
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   } 
   "SetupBG"
@@ -269,7 +238,6 @@
     "zpos"         "-1"
     "wide"         "78"
     "tall"         "20"
-    "tall_minmode" "0"
     "visible"      "0"
     "enabled"      "0"
     "image"        "../hud/objectives_timepanel_suddendeath" 
@@ -277,8 +245,7 @@
 
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	}
   }
   "ServerTimeLimitLabelBG"
@@ -290,7 +257,6 @@
     "zpos"         "-1"
     "wide"         "78"
     "tall"         "20"
-    "tall_minmode" "0"
     "visible"      "0"
     "enabled"      "0"
     "image"        "../hud/objectives_timepanel_suddendeath" 
@@ -298,8 +264,7 @@
     
 	if_match
 	{
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"9999"
 	} 
   }
 }

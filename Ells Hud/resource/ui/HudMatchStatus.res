@@ -270,7 +270,7 @@
 		"ypos"               "0"
 		"zpos"               "1"
 		"wide"               "f0"
-		"tall"               "36"
+		"tall"               "40"
 		"visible"            "1"
 		"enabled"            "1"
 		"delta_item_x"       "0"
@@ -284,7 +284,7 @@
 		
 		if_match
 		{
-			"zpos"				"5"
+			"zpos"			"5"
 		}
 		
 		"TimePanelValue"
@@ -305,7 +305,7 @@
 			
 			if_match
 			{
-				"ypos"          "12"
+				"ypos"		"11"
 			}
 		}	
 	}
