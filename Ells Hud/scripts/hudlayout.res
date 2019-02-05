@@ -244,12 +244,12 @@
   HudTeamGoal
   {
     "fieldName" "HudTeamGoal"
-    "visible"   "1"
-    "enabled"   "1"
-    "xpos"      "768"
-    "ypos"      "480"
+    "visible"   "0"
+    "enabled"   "0"
+    "xpos"      "0"
+    "ypos"      "0"
     "wide"      "0"
-    "tall"      "480"
+    "tall"      "0"
   }
 
   HudTeamGoalTournament
@@ -257,10 +257,10 @@
     "fieldName" "HudTeamGoalTournament"
     "visible"   "0"
     "enabled"   "0"
-    "xpos"      "768"
-    "ypos"      "480"
+    "xpos"      "0"
+    "ypos"      "0"
     "wide"      "0"
-    "tall"      "480"
+    "tall"      "0"
   }
 //  _______________
 // | END ELL'S HUD |
@@ -902,39 +902,35 @@ HudWeaponSelection
 
   StatPanel
   {
-    "fieldName"       "StatPanel"
-    "visible"       "1"
-    "enabled"       "1"
-    "xpos"          "c-133"
-    "xpos_lodef"      "c-190"
-    "ypos"        "270"
-    "ypos_lodef"      "250"
-    "wide"          "266"
-    "wide_lodef"      "400"
-    "tall"          "120"
-    "tall_lodef"      "190"
+    "fieldName"     "StatPanel"
+    "visible"       "0"
+    "enabled"       "0"
+    "xpos"          "0"
+    "ypos"        	"0"
+    "wide"          "0"
+    "tall"          "0"
   }
 
   FreezePanelCallout
   {
-    "fieldName"       "FreezePanelCallout"
-    "visible"       "1"
-    "enabled"       "1"
-    "xpos"          "200"
-    "ypos"          "200"
-    "wide"          "100"
-    "tall"          "50"
+    "fieldName"     "FreezePanelCallout"
+    "visible"       "0"
+    "enabled"       "0"
+    "xpos"          "0"
+    "ypos"          "0"
+    "wide"          "0"
+    "tall"          "0"
   }
 
   AnnotationsPanelCallout
   {
     "fieldName"     "AnnotationsPanelCallout"
-    "visible"       "1"
-    "enabled"       "1"
-    "xpos"          "200"
-    "ypos"          "200"
-    "wide"          "100"
-    "tall"          "50"
+    "visible"       "0"
+    "enabled"       "0"
+    "xpos"          "0"
+    "ypos"          "0"
+    "wide"          "0"
+    "tall"          "0"
   }
   
   AnnotationsPanel
